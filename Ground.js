@@ -15,3 +15,5 @@ class Ground{
         rect(this.ground.position.x,this.ground.position.y,900,20);
     }
 }
+
+//ground.js length:display,:breadth:astronish,

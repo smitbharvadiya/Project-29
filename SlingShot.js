@@ -3,7 +3,7 @@ class Slingshot{
         var options = {
             bodyA: bodyA,
             pointB: pointB,
-            stiffness: 0.04,
+            stiffness: 0.04000000000000000000009,
             length: 1
         }
         this.sling = Constraint.create(options);
@@ -20,9 +20,10 @@ class Slingshot{
         var pointB = this.pointB;
         
         strokeWeight(4);
-        stroke("black");
+        stroke("turquoise");
         line(pointA.x, pointA.y, pointB.x, pointB.y);
         }
         }
     
 }
+//slingshot.js;construstor length,breadth:12,

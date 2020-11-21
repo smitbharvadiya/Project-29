@@ -43,7 +43,7 @@ function setup() {
   //top
   block16 = new Block(390,155,30,40);
 
- // set 2 for second stand
+  //set 2 for second stand
   //level one
   blocks1 = new Block(640,175,30,40);
   blocks2 = new Block(670,175,30,40);
@@ -65,7 +65,7 @@ function setup() {
 
 }
 function draw() {
-  background("teal"); 
+  background(16,112,4); 
  
   //Engine.update(engine);
   //text(mouseX + ',' + mouseY, 10, 15);
